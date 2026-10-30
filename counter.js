@@ -1,1 +1,1 @@
-fetch('https://homoeogram.goatcounter.com/counter/TOTAL.json').then(function(r){return r.json()}).then(function(d){var n=document.getElementById('vnum');n.textContent=d.count;document.getElementById('vcount').hidden=false}).catch(function(){});
+fetch('https://homoeogram.goatcounter.com/counter/%2F.json').then(function(r){return r.json()}).then(function(d){var n=document.getElementById('vnum');n.textContent=d.count;document.getElementById('vcount').hidden=false}).catch(function(){});
